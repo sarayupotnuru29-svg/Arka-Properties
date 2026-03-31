@@ -16,7 +16,7 @@ export function Projects() {
       title: 'Sree City Kubera',
       location: 'Prime Location, Vijayawada',
       description: 'Experience the epitome of luxury living with Sree City Kubera. This premium residential project features world-class amenities, modern architecture, and spacious apartments designed for contemporary families who value quality and convenience.',
-      image: 'https://images.unsplash.com/photo-1757924330358-a48d65664dac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjBhcGFydG1lbnQlMjBidWlsZGluZyUyMHN1bnNldHxlbnwxfHx8fDE3NzQ5NTQxOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://srksreecity.com/wp-content/uploads/2025/01/sreecity-1.jpg',
       features: [
         'Premium 2BHK & 3BHK apartments',
         'Clubhouse with gym and indoor games',
@@ -31,7 +31,7 @@ export function Projects() {
       title: 'Sree City Vaibhav',
       location: 'Developing Area, Vijayawada',
       description: 'Sree City Vaibhav brings together modern architecture and comfort. Designed with meticulous attention to detail, this project offers the perfect blend of luxury and affordability for growing families seeking quality homes.',
-      image: 'https://images.unsplash.com/photo-1615725475020-1f7625d5ac72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwcmVzaWRlbnRpYWwlMjB0b3dlciUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NzQ5NTQxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyIW8i0RlmhEeFeSNZPUn8kpvTCkOKp7q0A&s',
       features: [
         'Spacious 2BHK & 3BHK units',
         'Modern elevation and design',
@@ -46,7 +46,7 @@ export function Projects() {
       title: 'Sowbhagya Neppalle',
       location: 'Neppalle, Andhra Pradesh',
       description: 'Your dream home awaits in the serene community of Sowbhagya Neppalle. This project offers excellent connectivity, modern infrastructure, and a peaceful living environment perfect for families seeking tranquility.',
-      image: 'https://images.unsplash.com/photo-1767884898359-5851b2e95536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjaXR5JTIwc2t5bGluZSUyMHJlYWwlMjBlc3RhdGV8ZW58MXx8fHwxNzc0OTQyODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://www.srksreecity.com/wp-content/uploads/2025/08/Buy-Plots-in-Vijayawada-%E2%80%93-Discover-SRK-SreeCity-Sowbhagya-Neppalle-1.png',
       features: [
         'Affordable 2BHK apartments',
         'Well-planned layout',
@@ -64,7 +64,7 @@ export function Projects() {
       <section className="relative h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1768223933860-6d62bc5b2ff3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjByZWFsJTIwZXN0YXRlJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwxfHx8fDE3NzQ5MzcwNDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+            src="https://www.srksreecity.com/wp-content/uploads/2025/02/kubera-banner-2.jpg"
             alt="Projects Hero"
             className="w-full h-full object-cover"
           />
@@ -195,25 +195,25 @@ export function Projects() {
                 icon: MapPin,
                 title: 'Prime Locations',
                 description: 'Strategic locations with excellent connectivity to schools, hospitals, and commercial hubs.',
-                image: 'https://images.unsplash.com/photo-1689152496131-9cecc95cde25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwaGFuZHNoYWtlJTIwYnVzaW5lc3MlMjBtZWV0aW5nfGVufDF8fHx8MTc3NDk1NDE5OHww&ixlib=rb-4.1.0&q=80&w=1080',
+                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrC399scOTDCCJAFdEeVwuy9C8zYJdcewcg&s',
               },
               {
                 icon: Building2,
                 title: 'Quality Construction',
                 description: 'Premium materials and modern construction techniques ensure durability and elegance.',
-                image: 'https://images.unsplash.com/photo-1632862378103-8248dccb7e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjB3b3JrZXJzJTIwYnVpbGRpbmclMjBzaXRlfGVufDF8fHx8MTc3NDg1MjEwMnww&ixlib=rb-4.1.0&q=80&w=1080',
+                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhkDyQkHQbKdEPlspbKg4TB6c0PHAu7ShNA&s',
               },
               {
                 icon: Users,
                 title: 'Modern Amenities',
                 description: 'World-class facilities including clubhouse, gym, and recreational spaces for all ages.',
-                image: 'https://images.unsplash.com/photo-1721394747060-7cfc57104f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBneW0lMjBmaXRuZXNzJTIwY2VudGVyJTIwYW1lbml0aWVzfGVufDF8fHx8MTc3NDk1NDIwMXww&ixlib=rb-4.1.0&q=80&w=1080',
+                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4QaNM2EFxS4XhAIPRZzqgenCGWDwkG7dkNQ&s',
               },
               {
                 icon: Shield,
                 title: 'Timely Delivery',
                 description: 'Our commitment to on-time project completion with transparent communication.',
-                image: 'https://images.unsplash.com/photo-1764684994222-739a69b1d61b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMGd1YXJkJTIwc3VydmVpbGxhbmNlJTIwc2FmZXR5fGVufDF8fHx8MTc3NDk1NDIwMnww&ixlib=rb-4.1.0&q=80&w=1080',
+                image: 'https://www.assethomes.in/wp-content/uploads/2025/12/Timely-Delivery-in-Real-Estate-A-Sign-of-Quality-and-Professionalism.jpg',
               },
             ].map((item, index) => (
               <motion.div

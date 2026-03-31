@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { Phone, Mail, MapPin, Clock, ArrowUp } from 'lucide-react';
-import logo from 'figma:asset/ebec491d079977f057b38d282934f6ca9969a7d5.png';
+import logo from '../../assets/logo.png';
 
 export function Footer() {
   const scrollToTop = () => {

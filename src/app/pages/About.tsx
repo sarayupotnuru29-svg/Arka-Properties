@@ -12,25 +12,25 @@ export function About() {
       icon: Target,
       title: 'Our Mission',
       description: 'To deliver exceptional real estate solutions that transform dreams into reality, focusing on quality, trust, and customer satisfaction in every project we undertake.',
-      image: 'https://images.unsplash.com/photo-1712696779652-dfca8766c5f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmFsJTIwYmx1ZXByaW50JTIwcGxhbm5pbmclMjBkZXNpZ258ZW58MXx8fHwxNzc0OTU0MjAwfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj5L5iRQ5tD9Qr8DZFTfZkPgpJ9ucIT6b6_Q&s',
     },
     {
       icon: Heart,
       title: 'Our Vision',
       description: 'To be the most trusted name in real estate, known for creating vibrant communities where families thrive and create lasting memories together.',
-      image: 'https://images.unsplash.com/photo-1758523671893-0ba21cf4260f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBoYXBweSUyMG5ldyUyMGhvbWUlMjBrZXlzfGVufDF8fHx8MTc3NDk1NDE5OXww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_VxcW_8UvUgs7Meat6Lsh7UqwezI9vDMgbg&s',
     },
     {
       icon: Shield,
       title: 'Our Commitment',
       description: 'We pledge unwavering dedication to transparency, quality construction, timely delivery, and complete customer satisfaction in every aspect of our business.',
-      image: 'https://images.unsplash.com/photo-1764684994222-739a69b1d61b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMGd1YXJkJTIwc3VydmVpbGxhbmNlJTIwc2FmZXR5fGVufDF8fHx8MTc3NDk1NDIwMnww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwx2L7NuzfkRaLv9fGFV_titTSCG-FmZ7_dg&s',
     },
     {
       icon: Lightbulb,
       title: 'Our Innovation',
       description: 'Embracing modern construction techniques, sustainable practices, and innovative designs to build homes that stand the test of time.',
-      image: 'https://images.unsplash.com/photo-1769697264013-d460d0c72785?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHN1c3RhaW5hYmxlJTIwYnVpbGRpbmclMjBlbnZpcm9ubWVudHxlbnwxfHx8fDE3NzQ5NTQyMDB8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF2odSnEyU_xSf6lm_F9wI54BPC0fnhKkhlA&s',
     },
   ];
 
@@ -40,7 +40,7 @@ export function About() {
       <section className="relative h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1771147372634-976f022c0033?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBtZWV0aW5nJTIwcm9vbSUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NzQ5NTQyMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+            src="https://www.srksreecity.com/wp-content/uploads/2025/02/kubera-banner-5.jpg"
             alt="About Us Hero"
             className="w-full h-full object-cover"
           />
@@ -107,14 +107,14 @@ export function About() {
               <div className="space-y-6">
                 <div className="relative rounded-2xl overflow-hidden shadow-xl h-72">
                   <img
-                    src="https://images.unsplash.com/photo-1757924330358-a48d65664dac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjBhcGFydG1lbnQlMjBidWlsZGluZyUyMHN1bnNldHxlbnwxfHx8fDE3NzQ5NTQxOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwfZrVy612m3fVY8TdirHmwQvxr5KLWrE8kg&s"
                     alt="Arka Property Building"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="relative rounded-2xl overflow-hidden shadow-xl h-56">
                   <img
-                    src="https://images.unsplash.com/photo-1615725475020-1f7625d5ac72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwcmVzaWRlbnRpYWwlMjB0b3dlciUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NzQ5NTQxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                    src="https://www.srksreecity.com/wp-content/uploads/2025/01/scpr-1-640x360.jpg"
                     alt="Residential Complex"
                     className="w-full h-full object-cover"
                   />
@@ -123,14 +123,14 @@ export function About() {
               <div className="space-y-6 pt-12">
                 <div className="relative rounded-2xl overflow-hidden shadow-xl h-56">
                   <img
-                    src="https://images.unsplash.com/photo-1767884898359-5851b2e95536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjaXR5JTIwc2t5bGluZSUyMHJlYWwlMjBlc3RhdGV8ZW58MXx8fHwxNzc0OTQyODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                    src="https://content3.jdmagicbox.com/comp/vijayawada/l7/0866px866.x866.230316145715.m5l7/catalogue/hotel-arka-gollapudi-vijayawada-hotels-xr78ay9af8.jpg"
                     alt="Property Development"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="relative rounded-2xl overflow-hidden shadow-xl h-72">
                   <img
-                    src="https://images.unsplash.com/photo-1520106392146-ef585c111254?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW1wb3JhcnklMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb218ZW58MXx8fHwxNzc0ODQxMDc4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                    src="https://teja12.kuikr.com/is/a/c/430x200/gallery_images/original/cf5f93c1947536d.gif"
                     alt="Interior Design"
                     className="w-full h-full object-cover"
                   />
@@ -165,13 +165,14 @@ export function About() {
                     <img
                       src={value.image}
                       alt={value.title}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-orange-600/90 to-orange-500/70 flex items-center justify-center">
-                      <value.icon size={64} className="text-white" />
-                    </div>
+                    {/* Shading removed: Background is now transparent/none */}
                   </div>
-                  <div className="p-8 sm:col-span-3 flex flex-col justify-center">
+                  <div className="p-8 sm:col-span-3 flex flex-col justify-center relative">
+                    <div className="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center mb-4 shadow-lg">
+                      <value.icon size={24} className="text-white" />
+                    </div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">{value.title}</h3>
                     <p className="text-gray-600 leading-relaxed">{value.description}</p>
                   </div>
@@ -195,7 +196,7 @@ export function About() {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1632862378103-8248dccb7e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjB3b3JrZXJzJTIwYnVpbGRpbmclMjBzaXRlfGVufDF8fHx8MTc3NDg1MjEwMnww&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="https://townsquareproperties.in/wp-content/uploads/2023/03/Arka-project-img-04.jpg"
                   alt="Construction Quality"
                   className="w-full h-[550px] object-cover"
                 />
@@ -263,9 +264,9 @@ export function About() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
-                variant="secondary"
+                variant="outline"
                 onClick={() => navigate('/projects')}
-                className="bg-white text-orange-600 hover:bg-gray-100 group"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-orange-600 group"
               >
                 Explore Projects
                 <ArrowRight size={20} className="inline ml-2 group-hover:translate-x-1 transition-transform" />

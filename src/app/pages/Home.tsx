@@ -19,19 +19,19 @@ export function Home() {
       id: 1,
       title: 'Sree City Kubera',
       description: 'Premium gated community with modern amenities. Experience luxury living with 2BHK & 3BHK apartments in a prime location with excellent connectivity.',
-      image: 'https://images.unsplash.com/photo-1757924330358-a48d65664dac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjBhcGFydG1lbnQlMjBidWlsZGluZyUyMHN1bnNldHxlbnwxfHx8fDE3NzQ5NTQxOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://srksreecity.com/wp-content/uploads/2025/01/sreecity-1.jpg',
     },
     {
       id: 2,
       title: 'Sree City Vaibhav',
       description: 'Contemporary apartments designed for modern families. Spacious layouts with quality construction and world-class facilities.',
-      image: 'https://images.unsplash.com/photo-1615725475020-1f7625d5ac72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwcmVzaWRlbnRpYWwlMjB0b3dlciUyMGFyY2hpdGVjdHVyZXxlbnwxfHx8fDE3NzQ5NTQxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyIW8i0RlmhEeFeSNZPUn8kpvTCkOKp7q0A&s',
     },
     {
       id: 3,
       title: 'Sowbhagya Neppalle',
       description: 'Affordable housing with excellent infrastructure. Perfect investment opportunity in a growing neighborhood with great connectivity.',
-      image: 'https://images.unsplash.com/photo-1767884898359-5851b2e95536?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjaXR5JTIwc2t5bGluZSUyMHJlYWwlMjBlc3RhdGV8ZW58MXx8fHwxNzc0OTQyODQ4fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://www.srksreecity.com/wp-content/uploads/2025/08/Buy-Plots-in-Vijayawada-%E2%80%93-Discover-SRK-SreeCity-Sowbhagya-Neppalle-1.png',
     },
   ];
 
@@ -39,17 +39,17 @@ export function Home() {
     {
       title: 'Trusted Expertise',
       description: 'Decades of experience in delivering quality residential projects with complete transparency.',
-      image: 'https://images.unsplash.com/photo-1689152496131-9cecc95cde25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwaGFuZHNoYWtlJTIwYnVzaW5lc3MlMjBtZWV0aW5nfGVufDF8fHx8MTc3NDk1NDE5OHww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxIhGb48iBDIux771cf6aNwb3T1evlXhGuEw&s',
     },
     {
       title: 'Premium Quality',
       description: 'Superior construction standards using the finest materials and modern building techniques.',
-      image: 'https://images.unsplash.com/photo-1632862378103-8248dccb7e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjB3b3JrZXJzJTIwYnVpbGRpbmclMjBzaXRlfGVufDF8fHx8MTc3NDg1MjEwMnww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://static.vecteezy.com/system/resources/thumbnails/019/803/526/small/premium-quality-rubber-stamp-red-premium-quality-rubber-grunge-stamp-seal-illustration-vector.jpg',
     },
     {
       title: 'Customer Satisfaction',
       description: 'Your happiness is our priority. Dedicated support from inquiry to post-possession.',
-      image: 'https://images.unsplash.com/photo-1758523671893-0ba21cf4260f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBoYXBweSUyMG5ldyUyMGhvbWUlMjBrZXlzfGVufDF8fHx8MTc3NDk1NDE5OXww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg2tvgzuZZgZzmxC9KX1mv8nkRyohKUlWSEg&s',
     },
   ];
 
@@ -59,7 +59,7 @@ export function Home() {
       <section className="relative min-h-[calc(100vh-4rem)] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1768223933860-6d62bc5b2ff3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjByZWFsJTIwZXN0YXRlJTIwYnVpbGRpbmclMjBleHRlcmlvcnxlbnwxfHx8fDE3NzQ5MzcwNDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+            src="https://www.homznspace.com/wp-content/uploads/2024/03/Main-Elevation-Team4-Arka-by-Team4-Lifespaces.jpg"
             alt="Hero Background"
             className="w-full h-full object-cover"
           />
@@ -207,14 +207,14 @@ export function Home() {
                 <div className="space-y-4">
                   <div className="relative rounded-2xl overflow-hidden shadow-xl h-64">
                     <img
-                      src="https://images.unsplash.com/photo-1520106392146-ef585c111254?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW1wb3JhcnklMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb218ZW58MXx8fHwxNzc0ODQxMDc4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58sOkCMrzusKOf298d7lOB2u5P2kN0c6U-A&s"
                       alt="Interior"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="relative rounded-2xl overflow-hidden shadow-xl h-80">
                     <img
-                      src="https://images.unsplash.com/photo-1768913573689-fa59c3c061cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBwcm9wZXJ0eSUyMHN3aW1taW5nJTIwcG9vbCUyMGFtZW5pdGllc3xlbnwxfHx8fDE3NzQ5NTQxOTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                      src="https://www.jllhomes.co.in/_next/image?url=https%3A%2F%2Fjll-global-gdim-res.cloudinary.com%2Fimage%2Fupload%2Fv1700907094%2FIN%2FHorizon%2FResi%2FPROD%2FJLL_Hyderabad_Team4%2520Arka_9511_EXT_2.jpg&w=3840&q=75"
                       alt="Amenities"
                       className="w-full h-full object-cover"
                     />
@@ -223,14 +223,14 @@ export function Home() {
                 <div className="space-y-4 pt-12">
                   <div className="relative rounded-2xl overflow-hidden shadow-xl h-80">
                     <img
-                      src="https://images.unsplash.com/photo-1712696779652-dfca8766c5f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmFsJTIwYmx1ZXByaW50JTIwcGxhbm5pbmclMjBkZXNpZ258ZW58MXx8fHwxNzc0OTU0MjAwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                      src="https://www.miva.ae/wp-content/uploads/2025/08/Arka-Enclave-Residences-1024x576.jpg"
                       alt="Planning"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="relative rounded-2xl overflow-hidden shadow-xl h-64">
                     <img
-                      src="https://images.unsplash.com/photo-1769697264013-d460d0c72785?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHN1c3RhaW5hYmxlJTIwYnVpbGRpbmclMjBlbnZpcm9ubWVudHxlbnwxfHx8fDE3NzQ5NTQyMDB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQklOAaRzBS2Py5LTN_SITtvn3Ikphebdq3cw&s"
                       alt="Sustainability"
                       className="w-full h-full object-cover"
                     />
