@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { ProjectCard } from '../components/ProjectCard';
 import { SectionHeader } from '../components/SectionHeader';
-import { MapPin, Home, Sparkles, CheckCircle, Building2, Users, Shield, Zap } from 'lucide-react';
+import { MapPin, Home, Sparkles, CheckCircle, Building2, Users, Shield, Zap, Calendar, ArrowRight } from 'lucide-react';
 
 export function Projects() {
   const handleWhatsApp = (projectName: string) => {
@@ -58,6 +58,43 @@ export function Projects() {
     },
   ];
 
+  const upcomingProjects = [
+    {
+      title: "SRK Sreecity The Gateway",
+      location: "Ambapuram, Vijayawada",
+      type: "Residential Development",
+      details: "AP CRDA & RERA Approved",
+      status: "Coming Soon",
+      icon: Building2
+    },
+    {
+      title: "The Riverstone",
+      location: "Tadepalli",
+      type: "Mega Gated Community",
+      details: "Apartments in 2.1 Acres",
+      status: "Coming Soon",
+      icon: Users
+    }
+  ];
+
+  const completedProjects = [
+    'Sree City Prime',
+    'Sree City Legend',
+    'Sree City Rich Mound County',
+    'Sree City Bhagyanagar',
+    'Sree City Platina',
+    'Sree City Kubera',
+    'Gokul Paradise',
+    'Sai Brundavanam',
+    'Sree Ram City',
+    'Sree City Phase 1-5',
+    'Sree City Amaravati Paradise I & II',
+    'Sree City Amaravati Green Homes',
+    'Sky Line Meadows',
+    'Park View Gated Community',
+    'Sri Ram Nagar',
+  ];
+
   return (
     <div className="pt-16">
       {/* Hero Section */}
@@ -108,6 +145,59 @@ export function Projects() {
                 description={project.description}
                 onEnquire={() => handleWhatsApp(project.title)}
               />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Upcoming Projects Section */}
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeader
+            subtitle="Future Living"
+            title="Upcoming Projects"
+            description="Preview our latest developments designed to redefine community living in Vijayawada and Tadepalli."
+          />
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+            {upcomingProjects.map((project, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-white rounded-2xl p-8 shadow-sm border border-orange-100 hover:shadow-xl transition-all group relative overflow-hidden"
+              >
+                <div className="absolute top-0 right-0 p-4">
+                  <span className="flex items-center gap-2 text-orange-600 font-bold text-sm bg-orange-50 px-4 py-1 rounded-full uppercase tracking-wider">
+                    <Calendar size={16} />
+                    {project.status}
+                  </span>
+                </div>
+                
+                <div className="flex items-start gap-6">
+                  <div className="bg-orange-100 p-4 rounded-xl group-hover:bg-orange-600 transition-colors">
+                    <project.icon size={32} className="text-orange-600 group-hover:text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 text-gray-500 mb-2">
+                      <MapPin size={16} className="text-orange-500" />
+                      <span className="text-sm font-medium">{project.location}</span>
+                    </div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">{project.title}</h3>
+                    <p className="text-orange-600 font-semibold mb-2">{project.type}</p>
+                    <p className="text-gray-600 mb-6">{project.details}</p>
+                    
+                    <button 
+                      onClick={() => handleWhatsApp(`Upcoming Project: ${project.title}`)}
+                      className="flex items-center gap-2 text-gray-900 font-bold group-hover:text-orange-600 transition-colors"
+                    >
+                      Get Early Access Details <ArrowRight size={18} />
+                    </button>
+                  </div>
+                </div>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -177,6 +267,34 @@ export function Projects() {
               </div>
             </motion.div>
           ))}
+        </div>
+      </section>
+
+      {/* Completed Projects Section */}
+      <section className="py-24 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeader
+            subtitle="Our Legacy"
+            title="Completed Projects"
+            description="A showcase of our successfully delivered residential communities across the region."
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+            {completedProjects.map((name, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: index * 0.05 }}
+                className="flex items-center gap-4 bg-gray-50 p-5 rounded-xl border border-gray-100 hover:border-orange-200 hover:bg-orange-50/30 transition-all group"
+              >
+                <div className="bg-orange-100 p-2 rounded-full group-hover:bg-orange-600 transition-colors">
+                  <CheckCircle size={18} className="text-orange-600 group-hover:text-white" />
+                </div>
+                <span className="text-lg font-medium text-gray-800">{name}</span>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 

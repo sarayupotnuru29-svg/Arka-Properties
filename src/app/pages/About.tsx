@@ -3,6 +3,8 @@ import { SectionHeader } from '../components/SectionHeader';
 import { Button } from '../components/Button';
 import { useNavigate } from 'react-router';
 import { Target, Heart, Shield, Lightbulb, CheckCircle, ArrowRight } from 'lucide-react';
+// Import the founder image
+import founderImg from '../../assets/founder.png';
 
 export function About() {
   const navigate = useNavigate();
@@ -141,6 +143,56 @@ export function About() {
         </div>
       </section>
 
+      {/* Founder Section */}
+      <section className="py-24 bg-orange-50/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="relative mx-auto lg:mx-0"
+            >
+              <div className="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
+                <img
+                  src={founderImg}
+                  alt="Kavuri Siva Rama Krishna"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-6 -right-6 bg-orange-600 text-white p-6 rounded-2xl shadow-xl hidden md:block">
+                <p className="text-2xl font-bold">10+ Years</p>
+                <p className="text-sm opacity-90">of Real Estate Excellence</p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <span className="text-orange-600 font-semibold tracking-wider uppercase text-sm mb-4 block">
+                Meet Our Visionary
+              </span>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                Kavuri Siva Rama Krishna
+              </h2>
+              <p className="text-orange-600 text-xl font-medium mb-8">Founder & Managing Director</p>
+              <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
+                <p>
+                  The driving force behind Arka Property, Mr. Kavuri Siva Rama Krishna, envisioned a real estate firm built on the pillars of integrity and quality. His leadership has guided the company through numerous successful developments, always prioritizing the needs of the community.
+                </p>
+                <p>
+                  His commitment to transparent business practices and superior construction standards has established Arka Property as a household name in Vijayawada's property market.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Values Section */}
       <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -167,7 +219,6 @@ export function About() {
                       alt={value.title}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
-                    {/* Shading removed: Background is now transparent/none */}
                   </div>
                   <div className="p-8 sm:col-span-3 flex flex-col justify-center relative">
                     <div className="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center mb-4 shadow-lg">

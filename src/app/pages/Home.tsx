@@ -59,7 +59,7 @@ export function Home() {
       <section className="relative min-h-[calc(100vh-4rem)] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://www.homznspace.com/wp-content/uploads/2024/03/Main-Elevation-Team4-Arka-by-Team4-Lifespaces.jpg"
+            src="https://pbs.twimg.com/media/G2epUzaWYAA5wOZ.jpg"
             alt="Hero Background"
             className="w-full h-full object-cover"
           />
