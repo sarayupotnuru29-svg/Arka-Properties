@@ -1,35 +1,55 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-// Array containing project image URLs from the requested source
+// Import all local images
+import p1 from '../../assets/p1.png';
+import p2 from '../../assets/p2.png';
+import p3 from '../../assets/p3.png';
+import p4 from '../../assets/p4.png';
+import p5 from '../../assets/p5.png';
+import p6 from '../../assets/p6.png';
+import p7 from '../../assets/p7.png';
+import p8 from '../../assets/p8.png';
+import p9 from '../../assets/p9.png';
+import p10 from '../../assets/p10.png';
+import p11 from '../../assets/p11.png';
+import p12 from '../../assets/p12.png';
+import p13 from '../../assets/p13.png';
+import p14 from '../../assets/p14.png';
+import p15 from '../../assets/p15.png';
+import p16 from '../../assets/p16.png';
+import p17 from '../../assets/p17.png';
+import p18 from '../../assets/p18.png';
+import p19 from '../../assets/p19.png';
+import p20 from '../../assets/p20.png';
+import p21 from '../../assets/p21.png';
+import p22 from '../../assets/p22.png';
+
 const galleryImages = [
-  {
-    url: "https://www.srksreecity.com/wp-content/uploads/2024/10/Sree-City-Kubera-Grand-Entrance.jpg",
-    title: "Sree City Kubera Entrance"
-  },
-  {
-    url: "https://www.srksreecity.com/wp-content/uploads/2024/10/Sree-City-Vaibhav-Layout.jpg",
-    title: "Project Layout Plan"
-  },
-  {
-    url: "https://www.srksreecity.com/wp-content/uploads/2024/10/Park-Area-Development.jpg",
-    title: "Landscaped Park"
-  },
-  {
-    url: "https://www.srksreecity.com/wp-content/uploads/2024/10/Villa-Construction-Site.jpg",
-    title: "Villa Development"
-  },
-  {
-    url: "https://www.srksreecity.com/wp-content/uploads/2024/10/Clubhouse-Elevation.jpg",
-    title: "Modern Clubhouse"
-  },
-  {
-    url: "https://www.srksreecity.com/wp-content/uploads/2024/10/Sowbhagya-Neppalle-Entrance.jpg",
-    title: "Sowbhagya Neppalle View"
-  }
+  { url: p1, title: "Project View 1" },
+  { url: p2, title: "Project View 2" },
+  { url: p3, title: "Project View 3" },
+  { url: p4, title: "Project View 4" },
+  { url: p5, title: "Project View 5" },
+  { url: p6, title: "Project View 6" },
+  { url: p7, title: "Project View 7" },
+  { url: p8, title: "Project View 8" },
+  { url: p9, title: "Project View 9" },
+  { url: p10, title: "Project View 10" },
+  { url: p11, title: "Project View 11" },
+  { url: p12, title: "Project View 12" },
+  { url: p13, title: "Project View 13" },
+  { url: p14, title: "Project View 14" },
+  { url: p15, title: "Project View 15" },
+  { url: p16, title: "Project View 16" },
+  { url: p17, title: "Project View 17" },
+  { url: p18, title: "Project View 18" },
+  { url: p19, title: "Project View 19" },
+  { url: p20, title: "Project View 20" },
+  { url: p21, title: "Project View 21" },
+  { url: p22, title: "Project View 22" },
 ];
 
-// Using Named Export (export const Gallery) to match your routes.tsx import
 export const Gallery = () => {
   return (
     <div className="pt-24 pb-16 min-h-screen bg-gray-50">
@@ -62,7 +82,7 @@ export const Gallery = () => {
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
+              transition={{ delay: (index % 6) * 0.1 }} // Staggered animation
               className="group relative overflow-hidden rounded-xl shadow-lg bg-white"
             >
               <div className="relative h-64 overflow-hidden">
@@ -70,10 +90,6 @@ export const Gallery = () => {
                   src={image.url} 
                   alt={image.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  onError={(e) => {
-                    // Fallback image in case external source links break
-                    (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80";
-                  }}
                 />
                 
                 {/* Overlay on Hover */}
