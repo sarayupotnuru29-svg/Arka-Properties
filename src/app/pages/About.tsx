@@ -49,7 +49,7 @@ export function About() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/65 to-black/45" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+        <div className="relative z-10 max-w-7xl auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -143,35 +143,17 @@ export function About() {
         </div>
       </section>
 
-      {/* Founder Section */}
+      {/* Founder Section - Photo right, Content left */}
       <section className="py-24 bg-orange-50/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="relative mx-auto lg:mx-0"
-            >
-              <div className="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
-                <img
-                  src={founderImg}
-                  alt="Kavuri Siva Rama Krishna"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-6 -right-6 bg-orange-600 text-white p-6 rounded-2xl shadow-xl hidden md:block">
-                <p className="text-2xl font-bold">10+ Years</p>
-                <p className="text-sm opacity-90">of Real Estate Excellence</p>
-              </div>
-            </motion.div>
-
+            {/* Content (Ordered first on desktop) */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
+              className="order-2 lg:order-1"
             >
               <span className="text-orange-600 font-semibold tracking-wider uppercase text-sm mb-4 block">
                 Meet Our Visionary
@@ -187,6 +169,27 @@ export function About() {
                 <p>
                   His commitment to transparent business practices and superior construction standards has established Arka Property as a household name in Vijayawada's property market.
                 </p>
+              </div>
+            </motion.div>
+
+            {/* Photo (Ordered second on desktop) */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="relative mx-auto lg:mx-0 order-1 lg:order-2"
+            >
+              <div className="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
+                <img
+                  src={founderImg}
+                  alt="Kavuri Siva Rama Krishna"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-6 -left-6 bg-orange-600 text-white p-6 rounded-2xl shadow-xl hidden md:block">
+                <p className="text-2xl font-bold">10+ Years</p>
+                <p className="text-sm opacity-90">of Real Estate Excellence</p>
               </div>
             </motion.div>
           </div>

@@ -207,14 +207,14 @@ export function Home() {
                 <div className="space-y-4">
                   <div className="relative rounded-2xl overflow-hidden shadow-xl h-64">
                     <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58sOkCMrzusKOf298d7lOB2u5P2kN0c6U-A&s"
+                      src="https://townsquareproperties.in/wp-content/uploads/2023/03/Arka-project-img-04.jpg"
                       alt="Interior"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="relative rounded-2xl overflow-hidden shadow-xl h-80">
                     <img
-                      src="https://www.jllhomes.co.in/_next/image?url=https%3A%2F%2Fjll-global-gdim-res.cloudinary.com%2Fimage%2Fupload%2Fv1700907094%2FIN%2FHorizon%2FResi%2FPROD%2FJLL_Hyderabad_Team4%2520Arka_9511_EXT_2.jpg&w=3840&q=75"
+                      src="https://static.360realtors.com/properties/photos/1237/mini/1.jpg"
                       alt="Amenities"
                       className="w-full h-full object-cover"
                     />
@@ -223,14 +223,14 @@ export function Home() {
                 <div className="space-y-4 pt-12">
                   <div className="relative rounded-2xl overflow-hidden shadow-xl h-80">
                     <img
-                      src="https://www.miva.ae/wp-content/uploads/2025/08/Arka-Enclave-Residences-1024x576.jpg"
+                      src="https://townsquareproperties.in/wp-content/uploads/2023/03/Arka-project-img-05.jpg"
                       alt="Planning"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="relative rounded-2xl overflow-hidden shadow-xl h-64">
                     <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQklOAaRzBS2Py5LTN_SITtvn3Ikphebdq3cw&s"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJKC1AcgowpUqKCHXVmdfHL9dR9W43Qg5diw&s"
                       alt="Sustainability"
                       className="w-full h-full object-cover"
                     />
