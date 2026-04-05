@@ -331,8 +331,8 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      details: 'arkaproperty26@gmail com',
-      link: 'mailto:arkaproperty26@gmail com',
+      details: 'arkaproperty26@gmail.com',
+      link: 'mailto:arkaproperty26@gmail.com',
       description: 'Send us your queries',
       color: 'red',
     },
